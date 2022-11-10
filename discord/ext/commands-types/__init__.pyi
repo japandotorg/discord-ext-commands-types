@@ -44,3 +44,5 @@ class Range(commands.Range[ConverterT]): ... # type: ignore[no-redef]
 class HelpCommand(commands.HelpCommand[ContextT]): ... # type: ignore[no-redef]
 class DefaultHelpCommand(commands.DefaultHelpCommand[ContextT]): ... # type: ignore[no-redef]
 class MinimalHelpCommand(commands.MinimalHelpCommand[ContextT]): ... # type: ignore[no-redef]
+
+__version__: Final[str]
